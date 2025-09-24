@@ -4,7 +4,7 @@ During the process, several issues arose, initially related to the selected regi
 
 Finally, the deployment was successfully completed in the Central Mexico region, using the S1 (Standard) SKU. Once these limitations were resolved, it was possible to provision the infrastructure correctly and access the generated web resource, as shown below:
 
-Translated with DeepL.com (free version)
+
 
 
 ![alt text](image.png)
