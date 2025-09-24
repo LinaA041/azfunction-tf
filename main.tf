@@ -1,6 +1,7 @@
 # Definición del provider que ocuparemos
 provider "azurerm" {
   features {}
+  subscription_id = "56fe8b72-7a98-46af-9660-22a730393cc3"
 }
 
 # Se crea el grupo de recursos, al cual se asociarán los demás recursos
@@ -25,7 +26,7 @@ resource "azurerm_service_plan" "sp" {
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
   os_type             = "Windows"
-  sku_name            = "Y1"
+  sku_name            = "S1"
 }
 
 # Se crea la aplicación de Funciones 
